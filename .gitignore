@@ -1,0 +1,19 @@
+# Custom
+*.jpg
+
+# User-specific files
+*.suo
+*.sln
+*.vcxproj*
+#*.user
+
+# Visual C++ cache files
+ipch/
+*.VC.db
+
+# Files built by Visual Studio
+*.obj
+*.log
+
+# Build results
+x64/
