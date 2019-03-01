@@ -9,7 +9,8 @@ void thread_function(int n)
 {
 	for (int i = 0; i < 10; i++) {
 		std::stringstream ss;
-		int r = rand() % 100;
+		//int r = rand() % 100;
+		int r = 12 % 100;
 		ss << "Thread " << n << " function Executing:" << i << "; time:" << r;
 		for (int j = 0; j < n; j++)
 			ss << std::endl;
@@ -270,7 +271,7 @@ int main()
 	//thread_example();
 	//opencv_example();
 	//opencv_intel_example();
-	opencv_multicamera();
+	//opencv_multicamera();
 	//opencv_camera_new();
 	//system("pause");
 	return 0;

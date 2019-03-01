@@ -10,6 +10,7 @@
 # Visual C++ cache files
 ipch/
 *.VC.db
+*.VC.opendb
 
 # Files built by Visual Studio
 *.obj
